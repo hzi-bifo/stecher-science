@@ -7,6 +7,7 @@ fructoselysine/glucoselysine utilization operon in *Enterococcus faecalis*.
 
 | Folder | Analysis |
 | --- | --- |
+| [data](data/) | Reference and result-table index, file checksums and recovered assembly filenames |
 | [02_reference_operon_extraction](02_reference_operon_extraction/) | Extract nucleotide/protein sequences and gene coordinates from the original reference |
 | [13a_new_reference_operon_extraction](13a_new_reference_operon_extraction/) | Extract genes and annotated variation sites from the updated KB1 reference |
 | [13e_full_operon_mapping](13e_full_operon_mapping/) | Map both references to assemblies and plot coverage, mismatches, indels and variation windows |
