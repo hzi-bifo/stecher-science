@@ -74,5 +74,5 @@ LLM tools, including OpenAI Codex, assisted with code review, proposed bug fixes
 documentation and organization of this contribution during repository preparation.
 The authors retain responsibility for the code and its validation, methodological
 decisions, analyses, interpretation and reported results. This assistance does
-not imply that manuscript reproduction has been completed. See the
-[repository-wide disclosure](../README.md#llm-assistance).
+not imply that manuscript reproduction has been completed. This disclosure applies
+only to the Münch contribution, not to other labs' contributions.

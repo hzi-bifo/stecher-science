@@ -54,8 +54,8 @@ Record remaining limitations and any corrections that have not been adopted.
 
 Describe the actual scope of LLM assistance for this contribution, if any, such as
 coding, debugging, code review or documentation; name tools when known. Do not
-attribute LLM use to another contributor without evidence. Link to the disclosure
-in the repository's root README and include this responsibility statement:
+attribute LLM use to another contributor without evidence. Keep any disclosure
+within that contribution's README and include this responsibility statement:
 
 > The authors retain responsibility for the code and its validation, methodological
 > decisions, analyses, interpretation and reported results.
