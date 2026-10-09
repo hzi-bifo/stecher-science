@@ -1,4 +1,4 @@
-# Muench operon contribution
+# Codon / operon analysis — Münch contribution
 
 ## Purpose and current status
 
@@ -15,7 +15,7 @@ panel. Accordingly, this directory currently contains documentation only.
 | --- | --- |
 | `README.md` | This guide, source requirements and validation status |
 | [figure_manifest.json](figure_manifest.json) | Panel status, described method, missing sources and fields for verified inputs, commands and outputs |
-| [Figure-to-code index](../docs/figure-code-map.md) | Human-readable panel mapping with page references to the reviewed paper and supplement |
+| [Figure-to-code index](docs/figure-code-map.md) | Human-readable panel mapping with page references to the reviewed paper and supplement |
 
 1. Read the figure-to-code index to identify the panel and its described method.
 2. Check its entry in `figure_manifest.json`. Empty source, command and output
@@ -54,7 +54,7 @@ or mutation coordinates also occur in the paper.
 
 Document execution steps in dependency order, with the working directory and
 exact commands, then list the expected output filenames and any manual figure
-assembly. Use the [analysis README template](../docs/analysis-readme-template.md)
+assembly. Use the [analysis README template](docs/analysis-readme-template.md)
 when extending this guide.
 
 ## Validation and recovery
@@ -65,7 +65,7 @@ exploratory code had separate checks; those must not be presented as validation
 of an unconfirmed manuscript workflow.
 
 Recovery locations and source hashes are recorded in
-[provenance.json](../docs/provenance.json). Local archives are excluded from the
+[provenance.json](docs/provenance.json). Local archives are excluded from the
 publication branch and may not be available in a downloaded copy of this repository.
 
 ## LLM assistance and author responsibility
@@ -75,4 +75,4 @@ documentation and organization of this contribution during repository preparatio
 The authors retain responsibility for the code and its validation, methodological
 decisions, analyses, interpretation and reported results. This assistance does
 not imply that manuscript reproduction has been completed. See the
-[repository-wide disclosure](../README.md#llm-assistance-and-author-responsibility).
+[repository-wide disclosure](../README.md#llm-assistance).

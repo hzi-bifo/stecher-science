@@ -16,8 +16,7 @@
   "source_repository": "https://github.com/philippmuench/operon_analysis_pipeline",
   "source_commit": "93f263ef4a1c9976bf14720ddc46b7ef9259da9d",
   "status": "Documentation only; no confirmed manuscript code or data identified in supplied repository",
-  "publication_branch": "manuscript-only",
-  "original_import_branch_local_only": "main",
+  "publication_branch": "main",
   "local_recovery_snapshots": [
     "local_archive/before_paper_scope_2026-10-09",
     "local_archive/before_manuscript_only_2026-10-09"
@@ -27,5 +26,6 @@
   "preserved_before_final_cleanup_files": 87,
   "online_supplement_inventory_independently_verified": false,
   "manuscript_text_included": false,
-  "external_publication_performed": false
+  "external_publication_performed": false,
+  "original_import_history_bundle": "local_archive/before_manuscript_only_2026-10-09/original-history.bundle"
 }

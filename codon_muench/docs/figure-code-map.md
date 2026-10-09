@@ -40,5 +40,5 @@ actual dependency.
 For each confirmed panel or claim, record its source files, processing script,
 exact run command, environment, generated output and any manual figure assembly.
 Record whether the code generates the panel itself or only its source data.
-The [figure manifest](../muench_operon/figure_manifest.json) holds the same source
+The [figure manifest](../figure_manifest.json) holds the same source
 status in a machine-readable form; currently all generator fields are null.
