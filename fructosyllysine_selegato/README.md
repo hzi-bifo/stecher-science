@@ -23,13 +23,3 @@ metadata. The `Directory` setting and working directory should point to the
 corresponding batch's data folder; adapt paths in a local working copy. Required
 R packages are listed at the start of each script, including `preprocessCore`
 from Bioconductor. Run the scripts separately for their respective datasets.
-
-The scripts are preserved exactly as supplied, including their original filenames.
-The untargeted script credits its adaptation from the Nature Protocols workflow
-identified in its header (DOI: `10.1038/s41596-024-01046-3`).
-
-## Scope
-
-This contribution contains quantification and data-cleaning scripts. Marta and
-Simon performed the statistical analyses separately; that statistical code is a
-separate contribution.
