@@ -1,5 +1,8 @@
 # Manuscript analysis inclusion and corrections
 
+- Give each analysis folder a README covering inputs, setup, execution, outputs,
+  figure/claim links, validation status and the actual scope of LLM assistance.
+  Use `analysis-readme-template.md` as a guide and retain author responsibility.
 - Include only code, input data and outputs with a verified relationship to a
   reported figure, table or numerical claim. Record shared upstream dependencies
   even when they do not directly draw a figure.
