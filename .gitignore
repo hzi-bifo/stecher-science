@@ -5,6 +5,11 @@ __pycache__/
 *.py[cod]
 .venv/
 .pytest_cache/
+codon_muench/13e_full_operon_mapping/output_replotted/
+codon_muench/13e_full_operon_mapping/output_rerun/
+codon_muench/13e_full_operon_mapping/raw_blast/
+*.out
+*.err
 
 # Manuscript prose stays outside the code repository.
 **/manuscript*.md

@@ -1,0 +1,44 @@
+#!/bin/bash
+#SBATCH --job-name=full_operon_mapping
+#SBATCH --output=full_operon_mapping_%j.out
+#SBATCH --error=full_operon_mapping_%j.err
+#SBATCH --time=24:00:00
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=32G
+#SBATCH --partition=cpu
+
+# Locate this analysis when called locally or from a SLURM spool directory.
+ANALYSIS_ROOT="${OPERON_ANALYSIS_ROOT:-}"
+if [[ -z "$ANALYSIS_ROOT" ]]; then
+    for operon_base in "${SLURM_SUBMIT_DIR:-}" "$(dirname "${BASH_SOURCE[0]}")" "$PWD"; do
+        [[ -n "$operon_base" ]] || continue
+        for operon_candidate in "$operon_base" "$operon_base/.." "$operon_base/codon_muench"; do
+            if [[ -f "$operon_candidate/runtime.sh" ]]; then
+                ANALYSIS_ROOT="$(cd "$operon_candidate" && pwd)"
+                break 2
+            fi
+        done
+    done
+fi
+if [[ ! -f "$ANALYSIS_ROOT/runtime.sh" ]]; then
+    echo "Cannot locate analysis runtime. Set OPERON_ANALYSIS_ROOT to the codon_muench directory." >&2
+    exit 1
+fi
+source "$ANALYSIS_ROOT/runtime.sh"
+
+
+set -euo pipefail
+
+cd "$ANALYSIS_ROOT/13e_full_operon_mapping" || exit 1
+
+operon_activate_environment efs_diversity || exit 1
+
+python compare_full_operon_mapping.py \
+    --legacy-gb ../02_reference_operon_extraction/operon.gb \
+    --updated-gb ../13a_new_reference_operon_extraction/FL_operon_with_SNPs.gb \
+    --assemblies-dir ../../Efs_assemblies \
+    --threads "$SLURM_CPUS_PER_TASK" \
+    --output output_full_run \
+    --min-coverage 80 \
+    --min-identity 90 \
+    --save-raw
