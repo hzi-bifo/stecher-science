@@ -1,0 +1,11 @@
+# Local recovery copies are not publication content.
+local_archive/
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Manuscript prose stays outside the code repository.
+**/manuscript*.md
+**/manuscript*.txt

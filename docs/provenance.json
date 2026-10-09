@@ -1,0 +1,31 @@
+{
+  "prepared_date": "2026-10-09",
+  "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.27.714693v1",
+  "source_pdfs": [
+    {
+      "filename": "2026.03.27.714693v1.full.pdf",
+      "sha256": "31f14434ec5c59beca65955cc5d953eea7ebb22c0769e802e514adf38b43b4a9",
+      "pages": 60
+    },
+    {
+      "filename": "media-1.pdf",
+      "sha256": "8a0343c91dfa186c0737e9ee76788dfacafc5ab5b11d69d5c2b76bd9dc2d52f6",
+      "pages": 42
+    }
+  ],
+  "source_repository": "https://github.com/philippmuench/operon_analysis_pipeline",
+  "source_commit": "93f263ef4a1c9976bf14720ddc46b7ef9259da9d",
+  "status": "Documentation only; no confirmed manuscript code or data identified in supplied repository",
+  "publication_branch": "manuscript-only",
+  "original_import_branch_local_only": "main",
+  "local_recovery_snapshots": [
+    "local_archive/before_paper_scope_2026-10-09",
+    "local_archive/before_manuscript_only_2026-10-09"
+  ],
+  "recovery_manifest": "local_archive/before_manuscript_only_2026-10-09/snapshot_manifest.json",
+  "recovery_manifest_sha256": "53b88269c7602dedb97cb86b24910eff9841edd8f6961f4b3d050944d542c95e",
+  "preserved_before_final_cleanup_files": 87,
+  "online_supplement_inventory_independently_verified": false,
+  "manuscript_text_included": false,
+  "external_publication_performed": false
+}
