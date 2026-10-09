@@ -5,10 +5,6 @@
 This section documents the potential operon contribution and is the entry point
 for its code and data once their manuscript provenance is established.
 
-**Status: manuscript provenance unresolved.** No script or dataset from the
-supplied exploratory repository has been confirmed as an input to a published
-panel. Accordingly, this directory currently contains documentation only.
-
 ## Files and how to use them
 
 | File | Purpose |
