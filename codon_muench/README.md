@@ -80,7 +80,7 @@ commit `93f263ef4a1c9976bf14720ddc46b7ef9259da9d`, with the local corrections no
 
 ## LLM assistance
 
-LLM tools, including OpenAI Codex, assisted with coding, code review and
+LLM tools, including OpenAI Codex and Claude Code, assisted with coding, code review and
 documentation for this contribution. The authors retain responsibility for the
 code and its validation, methodological decisions, analyses, interpretation and
 reported results.
