@@ -1,0 +1,2 @@
+# Preserve the supplied R files, including their original line endings.
+*.R -text
