@@ -1,5 +1,7 @@
 # Manuscript code
 
+[![DOI](https://zenodo.org/badge/1411728618.svg)](https://doi.org/10.5281/zenodo.23263352)
+
 Code for **Gut microbiota within-host evolution enforces colonization resistance against enteric infection** by Silva, Woelfel et al.
 
 | Folder | Contribution |
