@@ -2,6 +2,8 @@
 
 Original numerical tables and figure exports from the source repository.
 
+Browse the [figure index](position_stats/plots/README.md) for direct links to all 24 PDF and PNG exports.
+
 - `position_stats/`: per-position coverage, mismatch/indel rates, gene annotations and plot exports.
 - `variant_site_*.tsv`: allele calls and summaries at selected annotated sites.
 - `summary.txt`: original mapping run summary.
