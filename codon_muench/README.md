@@ -76,9 +76,6 @@ Run the regression checks from the repository root:
 python -m unittest discover -s codon_muench/tests -v
 ```
 
-Source: [operon_analysis_pipeline](https://github.com/philippmuench/operon_analysis_pipeline),
-commit `93f263ef4a1c9976bf14720ddc46b7ef9259da9d`, with the local corrections noted above.
-
 ## LLM assistance
 
 LLM tools, including OpenAI Codex and Claude Code, assisted with coding, code review and
