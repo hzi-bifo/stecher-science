@@ -27,9 +27,6 @@ Biopython, pandas, NumPy and Matplotlib.
 
 ## Generate plots from the saved tables
 
-Browse the [original PDFs and PNGs](13e_full_operon_mapping/output_full_run/position_stats/plots/README.md)
-for coverage, mismatch and indel profiles of both operon references.
-
 Extract the updated reference annotations, then plot the included position tables:
 
 ```sh
