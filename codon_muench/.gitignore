@@ -1,0 +1,11 @@
+reproduced/
+prokka_output/
+01_prokka_annotation/*.log
+01_prokka_annotation/temp_*.fasta
+03_blast_search/output/blast_results/
+03_blast_search/output/blast_db/
+03_blast_search/output/all_blast_hits_detailed.csv
+04_core_gene_analysis/output/core_gene_sequences/
+04_core_gene_analysis/output/core_gene_alignments/
+05_operon_assembly_extraction/output/sequences/
+05_operon_assembly_extraction/output/msa/

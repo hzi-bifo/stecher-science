@@ -6,5 +6,5 @@ Code for **Gut microbiota within-host evolution enforces colonization resistance
 
 | Folder | Contribution |
 | --- | --- |
-| [codon_muench](codon_muench/README.md) | Münch codon / operon contribution |
+| [codon_muench](codon_muench/README.md) | Münch operon mapping, organization and conservation analyses |
 | [fructosyllysine_selegato](fructosyllysine_selegato/README.md) | Selegato fructosyllysine quantification and untargeted metabolomics data cleaning |

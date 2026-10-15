@@ -1,0 +1,8 @@
+gene,n_sequences,alignment_length,conservation_score,sequences_removed
+ptsA_aligned,8269,462,0.994325,7
+ptsC_aligned,8266,789,0.991506,7
+ptsB_aligned,8269,469,0.991151,7
+ptsD_aligned,8270,832,0.990013,7
+frpC_aligned,8270,1002,0.989767,7
+fruR_aligned,8263,2774,0.980069,7
+glpC_aligned,8269,1074,0.978046,7
