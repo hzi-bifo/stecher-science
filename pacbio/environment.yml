@@ -1,0 +1,14 @@
+name: pacbio
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - sra-tools     # prefetch, fasterq-dump
+  - entrez-direct # esearch, efetch
+  - pbtk          # bam2fastq
+  - seqkit
+  - rasusa
+  - canu=2.2
+  - pbmm2
+  - samtools
+  - mummer4       # nucmer, show-coords
