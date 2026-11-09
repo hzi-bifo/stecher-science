@@ -3,13 +3,115 @@
   "description": "Study-specific analysis code, associated data and documentation accompanying “Gut microbiota within-host evolution enforces colonization resistance against enteric infection” by Silva, Woelfel et al. Includes contributions by Münch, Selegato and Matchado. See the contribution READMEs for scope, inputs and usage.",
   "creators": [
     {
-      "name": "Münch, Philipp"
+      "name": "Silva, Marta Salvado"
     },
     {
-      "name": "Selegato, Denise"
+      "name": "Woelfel, Simon"
     },
     {
-      "name": "Matchado, Monica Steffi"
+      "name": "Eberl, Claudia"
+    },
+    {
+      "name": "Selegato, Denise Medeiros"
+    },
+    {
+      "name": "Münch, Philipp C."
+    },
+    {
+      "name": "Nguyen, Bidong"
+    },
+    {
+      "name": "Matchado, Monica S."
+    },
+    {
+      "name": "Raj, Abilash Durai"
+    },
+    {
+      "name": "Jung, Birte K."
+    },
+    {
+      "name": "Omer, Hélène"
+    },
+    {
+      "name": "Schwarzer, Friderieke"
+    },
+    {
+      "name": "Gaissmaier, Marla"
+    },
+    {
+      "name": "Hellwig, Michael"
+    },
+    {
+      "name": "Osbelt, Lisa"
+    },
+    {
+      "name": "Bolsega, Silvia"
+    },
+    {
+      "name": "Wudy, Susanne I."
+    },
+    {
+      "name": "Garzetti, Debora"
+    },
+    {
+      "name": "Ring, Diana"
+    },
+    {
+      "name": "von Strempel, Alexandra"
+    },
+    {
+      "name": "Hussain, Saib"
+    },
+    {
+      "name": "Fuchs, Lea"
+    },
+    {
+      "name": "Niedermeier, Lisa"
+    },
+    {
+      "name": "Fajardo-Ruiz, Elena"
+    },
+    {
+      "name": "Jung, Kirsten"
+    },
+    {
+      "name": "Basic, Marijana"
+    },
+    {
+      "name": "Lassak, Jürgen"
+    },
+    {
+      "name": "Penders, John"
+    },
+    {
+      "name": "van Best, Niels"
+    },
+    {
+      "name": "McHardy, Alice C."
+    },
+    {
+      "name": "Slack, Emma"
+    },
+    {
+      "name": "Strowig, Till"
+    },
+    {
+      "name": "Ludwig, Christina"
+    },
+    {
+      "name": "Nübel, Ulrich"
+    },
+    {
+      "name": "Zimmermann, Michael"
+    },
+    {
+      "name": "Hardt, Wolf-Dietrich"
+    },
+    {
+      "name": "Haller, Dirk"
+    },
+    {
+      "name": "Stecher, Bärbel"
     }
   ],
   "upload_type": "software",
