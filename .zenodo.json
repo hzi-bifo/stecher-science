@@ -1,0 +1,18 @@
+{
+  "title": "hzi-bifo/stecher-science: Manuscript analysis code",
+  "description": "Study-specific analysis code, associated data and documentation accompanying “Gut microbiota within-host evolution enforces colonization resistance against enteric infection” by Silva, Woelfel et al. Includes contributions by Münch, Selegato and Matchado. See the contribution READMEs for scope, inputs and usage.",
+  "creators": [
+    {
+      "name": "Münch, Philipp"
+    },
+    {
+      "name": "Selegato, Denise"
+    },
+    {
+      "name": "Matchado, Monica Steffi"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0"
+}
